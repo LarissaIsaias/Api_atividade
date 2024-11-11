@@ -8,9 +8,23 @@
     "start-server": "cd server && node index.js",
     "install-client": "cd client && npm install",
     "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
+    "start-client": "cd client && npm run start",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "jest": "^29.7.0",
+    "mockingoose": "^2.16.2",
+    "mongodb-memory-server": "^10.1.2",
+    "mongoose": "^8.8.1",
+    "npm": "^10.9.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
 }
